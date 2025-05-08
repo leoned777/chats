@@ -171,6 +171,7 @@ text-decoration:h;
     background-color: #bbeffd;
     border: 1px solid #444;
     /* display: flex; */
+    font-size: 18px;
 }
 
 .active + .input {
