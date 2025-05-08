@@ -175,8 +175,7 @@ text-decoration:h;
 
 .active + .input {
     max-height: 5000px; /* Максимальная высота для плавного раскрытия */
-    max-height: none; width: 300px;
-}
+    max-height: none; 
 .input p {
     font-size: 14px;
     /* line-height: 1.5; */
