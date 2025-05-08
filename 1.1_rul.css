@@ -48,7 +48,6 @@ margin: 20px;
 border: 0px solid rgb(134, 134, 134);
 background-color:#ffffff;
 border-radius: 5px;
-        font-size: 18px;
 
 }
 
@@ -136,14 +135,36 @@ text-decoration:h;
 @media (max-width: 500px) {
     .flexbox-admins img {
         width: 250px;
+        height: 250px;
         
     }
 }
 @media (max-width: 440px) {
     .flexbox-admins img {
         width: 200px;
+        height: 200px;
         
     }
+    .dop-info {
+        font-size: 15px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+    .rulus p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 400px) {
+    .flexbox-admins img {
+        width: 150px;
+        height: 150px;
+        font-size: 12px;
+        margin: 5px;
+        padding: 0px;
+    }
+    
 }
 .accordion {
     background-color: #f6ffff;
@@ -172,12 +193,12 @@ text-decoration:h;
     background-color: #bbeffd;
     border: 1px solid #444;
     /* display: flex; */
-    font-size: 18px;
 }
 
 .active + .input {
     max-height: 5000px; /* Максимальная высота для плавного раскрытия */
     max-height: none; 
+}
 .input p {
     font-size: 14px;
     /* line-height: 1.5; */
