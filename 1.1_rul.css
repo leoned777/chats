@@ -9,6 +9,9 @@
     border-radius: 20px;
     padding: 10px;
 }
+.ocnova .rulus p {
+    margin: 20px;
+}
 .ocnova button {
     padding: 10px;
 }
@@ -253,7 +256,9 @@ display: block;
 
 margin: 0;
 }
-.server p {}
+.server p {
+    
+}
 .liv {
     display: flex;
     position: fixed;
@@ -267,5 +272,15 @@ margin: 0;
 
 }
 .liv p{
+    margin: 10px;
+}
+.rulus p {
+    margin: 0;
+}
+.rulus a {
+    padding: 10px;
+    
+}
+.rulus p{
     margin: 10px;
 }
