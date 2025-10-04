@@ -42,13 +42,17 @@ body{
     box-shadow: 4px 4px 14px rgba(204, 204, 204, 0.25);
     color: rgb(0, 0, 0);
     background-image: url('Minecraft_chat_2.jpg'); /* Путь к изображению */
-    background-size: cover; /* Масштабирует изображение так, чтобы оно покрывало весь экран */
-    background-repeat: no-repeat; /* Изображение не повторяется */
-    background-position: center; /* Центрирование изображения */
+    background-size: contain; 
+  
+    background-attachment: scroll;
     color: #150461;
+    background-attachment: scroll
     
     }
-
+.info {
+    
+    display: inline;
+}
 .rulus p{
 padding: 10px;
 margin: 20px;
@@ -107,7 +111,7 @@ text-decoration:h;
         box-shadow: 17px 6px 14px rgb(65, 60, 60);
     }
 .pachalka:after {
-    content: "-молодец, владелец чата";
+    content: "-молодец, человек";
     opacity: 0;
     transform: translateX(10px);
     transition: all 3.3s ease-in-out 1.5s;
@@ -117,11 +121,11 @@ text-decoration:h;
 
 
    
-  .pachalka:hover:afterafter {
+  /* .pachalka:hover:afterafter {
     opacity: 1;
     transform: translateX(0);
     
-  }
+  } */
   
  
   .pachalka2:hover {
@@ -161,21 +165,24 @@ text-decoration:h;
     padding: 10px;
 }
 @media (max-width: 850px) {
-    .flexbox-admins{
+    .flexbox-admins {
         display: block;
+        /* max-width: 250px;
+        max-height: 250px; */
+        
     }
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .flexbox-admins img {
-        width: 250px;
-        height: 250px;
+        width: 300px;
+        height: 300px;
         
     }
     .flexbox-admins  p {
         max-width: 300px;
-        padding: 5px;
+        padding: 3px;
         border-radius: 10px;
-        font-size: 15px;
+        font-size: 14px;
    }
 }
 @media (max-width: 440px) {
@@ -273,13 +280,28 @@ margin-top: 70px;
    clear: left;
 }
 .server {
-    background-color: #b1dfdf;
+    /* background-color: #ffffff; */
+    /* opacity: 0.5; */
     padding: 10px;
-    margin: 10px;
-    border-radius: 20px;
-    display:;
-    border: #000000 solid 1px;
+    margin: 15px;
+    color: #000000;
+    background-color: rgba(201, 198, 198, 0.5);
+    border-bottom: rgba(0, 0, 0, 0.8)  solid 3px;
+    background: linear-gradient(rgb(255, 255, 255, 0.7), rgba(124, 124, 124, 0.4));
+    box-shadow: 4px 4px 14px  rgba(56, 56, 56, 0.25);
 }
+
+.server h2 {
+   font-family: 'Courier New', Courier, monospace;
+
+}
+.server-background {
+   opacity: 0.5;
+   background: radial-gradient(#000000)
+ 
+   
+} */
+
 .server img{
 height: 90px;
 width: 90px;
@@ -295,13 +317,15 @@ margin: 0;
 .liv {
     display: flex;
     position: fixed;
-    background-color: rgb(139, 233, 228);
+    background-color: rgba(209, 255, 252, 0.3);
     left: 0;
     right: 0;
     top: 0;
     text-align: center;
     font-size: 20px;
-    border-bottom: solid #000000;
+    border-bottom: solid rgb(223, 255, 253, 0.5) 1px;
+    font-family:  'Courier New', Courier, monospace;
+    
 
 }
 .liv p{
